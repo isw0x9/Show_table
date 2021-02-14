@@ -38,19 +38,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <ElephantTable/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import ElephantTable from './components/ElephantTable';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    ElephantTable,
   },
 
   data: () => ({
